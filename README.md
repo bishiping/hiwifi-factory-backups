@@ -1,2 +1,2 @@
-# hiwifi-factory-backups
-save self-used hiwifi routers' official firmware and related files
+建这个仓库的目的一方面是整理下自己这段时间折腾极路由刷机遇到的问题，另一方面也对文件做一个备份。
+本人折腾极路由的型号为极路由1S（HC5661A)和极路由4增强版（HC5962），仓库所储文件皆为开启ROOT后，使用dd命令从官方固件备份而来，包含`oem.bin`（包含极路由key，但是极路由官方插件已不可使用，这个也用处不打了）和`bdinfo.bin`（官方固件储存man地址的地方），对于`Factory.bin`，官方固件这里存放了对无线的配置信息，而第三方固件是把mac也放到了这里，也就是breed下备份的`eeprom.bin`。
